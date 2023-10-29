@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar/Navbar"
 import { Link } from "react-router-dom"
+import ShortDescription from "../components/ShortDescription/ShortDescription"
+import Footer from "../components/Footer/Footer"
 // import backgroundImg from "../assets/images/background.jpg"
 const Home = () => {
     return (
@@ -18,7 +20,7 @@ const Home = () => {
                                         Embark on a Culinary Journey, Where Every Recipe Tells a Story.
                                     </h1>
                                     <p className="text_para">Discover the Essence of Flavors, the Art of Presentation, and the Joy of Cooking.
-                                    Explore Our Collection of Mouthwatering Recipes and Indulge Your Taste Buds in a World of Gastronomic Delights.</p>
+                                        Explore Our Collection of Mouthwatering Recipes and Indulge Your Taste Buds in a World of Gastronomic Delights.</p>
                                     <Link to={"/"}>
                                         <button className="btn">Search</button>
                                     </Link>
@@ -64,6 +66,8 @@ const Home = () => {
                     </div>
                 </section>
             </div>
+            <ShortDescription />
+            <Footer/>
         </>
     )
 }
