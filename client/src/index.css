@@ -25,7 +25,7 @@
   }
 
   .header {
-    @apply bg-[url("./asset/images/mask.png")] bg-center bg-cover w-full bg-no-repeat h-[100px] leading-[100px];
+    @apply bg-[url("./assets/images/header-bg.png")] bg-center bg-cover w-full bg-no-repeat h-[100px] leading-[100px];
   }
   .hero_section {
     @apply bg-[url("./assets/images/background.jpg")] bg-center bg-cover bg-no-repeat max-w-full;

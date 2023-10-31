@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar/Navbar"
 import { Link } from "react-router-dom"
 import ShortDescription from "../components/ShortDescription/ShortDescription"
 import Footer from "../components/Footer/Footer"
+import Learn from "../components/LearnMore/Learn"
 // import backgroundImg from "../assets/images/background.jpg"
 const Home = () => {
     return (
@@ -67,6 +68,7 @@ const Home = () => {
                 </section>
             </div>
             <ShortDescription />
+            <Learn/>
             <Footer/>
         </>
     )

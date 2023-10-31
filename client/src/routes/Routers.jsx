@@ -1,4 +1,5 @@
 import Home from "../pages/Home"
+import AboutUs from "../pages/Aboutus"
 import { Routes, Route } from "react-router-dom"
 
 
@@ -8,7 +9,7 @@ const Routers = () => {
         
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home/>}/>
+            <Route path="/aboutus" element={<AboutUs/>}/>
         </Routes>
     )
 }
