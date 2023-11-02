@@ -13,6 +13,8 @@ export default {
         purpleColor:"#B931FC",
         textColor:"#4E535F",
         heroColor:"#132043",
+        peach: '#FFDAB9', 
+        orange: '#FFA500',
       },
       boxShadow:{
         panelShadow:"rgba(16,12,45,0.15 ) 0px 47px 100ox 0px"
