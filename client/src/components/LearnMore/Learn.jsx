@@ -1,5 +1,4 @@
 import foodHome from "../../assets/imgs/foodhome.jpg"
-import { Link } from "react-router-dom"
 const Learn = () => {
     return (
         <section>
@@ -16,9 +15,9 @@ const Learn = () => {
                             Embrace the joy of cooking and transform your home into a culinary paradise.
                             Get ready to embark on a gastronomic adventure like never before – happy cooking!
                         </div>
-                        <Link to={"aboutus"}>
+                        <a href="aboutus">
                             <button className="btn">About Us</button>
-                        </Link>
+                        </a>
 
                     </div>
 
